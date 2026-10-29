@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXPERIMENT NO.-4</title>
 </head>
-    <center>
-    <div>
-        <h1>Hotel Room Booking Form</h1>
-    </div>
+<body>
+    <fieldset>
+        <center>
+    <h1>Hotel Room Booking Form </h1>
+    
     <label for="Name">Full Name:</label>
     <input type="text" id="Name" placeholder="Enter your full name">
     <br>
     <br>
     <label for="Email">Email:</label>
-    <input type="text" id="Email" placeholder="Enter your email">
+    <input type="email" id="Email" placeholder="Enter your email">
     <br>
     <br>
     <label for="Phone">Phone:</label>
-    <input type="text" id="Phone" placeholder="Enter your phone no.">
+    <input type="tel" id="Phone" placeholder="Enter your phone no.">
     <br>
     <br>
     <label for="Check in">Check-in Date:</label>
@@ -31,6 +32,7 @@
     <br><br>
     <label for="room type">Room Type:</label>
     <select id="room type">
+        <option value="">select</option>
         <option value="Single">Single Room</option>
         <option value="Double">Double Room</option>
         <option value="Suite">Suite</option>
@@ -43,11 +45,12 @@
     <br>
     <textarea id="Special requests" placeholder="Enter any special requests"></textarea>
     <br><br>
-    <button type="submit">Submit</button>
-    <button type="reset">Reset Form</button>
+    <input type="submit" value="Book Now">
+    &nbsp;
+    <input type="reset" value="Reset form">
     </center>
 
-
+</fieldset>
 
 
 
